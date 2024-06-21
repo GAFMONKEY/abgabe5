@@ -3,19 +3,19 @@
     {
       "id": 1,
       "vorgesetzter": 1,
-      "vorgesetzer_email": "test",
+      "vorgesetzter_email": "test",
       "kostenstelle": 1
     },
     {
       "id": 2,
       "vorgesetzter": 2,
-      "vorgesetzer_email": "test",
+      "vorgesetzter_email": "test",
       "kostenstelle": 2
     },
     {
       "id": 3,
       "vorgesetzter": 3,
-      "vorgesetzer_email": "mariosparacino2@gmail.com",
+      "vorgesetzter_email": "mariosparacino2@gmail.com",
       "kostenstelle": 3
     }
   ],
