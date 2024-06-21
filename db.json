@@ -3,16 +3,19 @@
     {
       "id": 1,
       "vorgesetzter": 1,
+      "vorgesetzer_email": "test",
       "kostenstelle": 1
     },
     {
       "id": 2,
       "vorgesetzter": 2,
+      "vorgesetzer_email": "test",
       "kostenstelle": 2
     },
     {
       "id": 3,
       "vorgesetzter": 3,
+      "vorgesetzer_email": "mariosparacino2@gmail.com",
       "kostenstelle": 3
     }
   ],
@@ -20,43 +23,20 @@
     {
       "id": 1,
       "projektleiter": 4,
+      "projektleiter_email": "test",
       "kostenstelle": 4
     },
     {
       "id": 2,
       "projektleiter": 5,
+      "projektleiter_email": "test",
       "kostenstelle": 5
     },
     {
       "id": 3,
       "projektleiter": 6,
+      "projektleiter_email": "test",
       "kostenstelle": 6
-    }
-  ],
-  "personen": [
-    {
-      "id": 1,
-      "name": "Friederich Abril"
-    },
-    {
-      "id": 2,
-      "name": "Olof Schulze"
-    },
-    {
-      "id": 3,
-      "name": "Kristian Landner"
-    },
-    {
-      "id": 4,
-      "name": "Max Mustermann"
-    },
-    {
-      "id": 5,
-      "name": "Monika Musterfrau"
-    },
-    {
-      "id": 6,
-      "name": "Heinz Heinze"
     }
   ],
   "kostenstellen": [
