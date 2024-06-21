@@ -3,16 +3,19 @@
     {
       "id": 1,
       "vorgesetzter": 1,
+      "vorgesetzter_email": "test",
       "kostenstelle": 1
     },
     {
       "id": 2,
       "vorgesetzter": 2,
+      "vorgesetzter_email": "test",
       "kostenstelle": 2
     },
     {
       "id": 3,
       "vorgesetzter": 3,
+      "vorgesetzter_email": "mariosparacino2@gmail.com",
       "kostenstelle": 3
     }
   ],
@@ -20,69 +23,46 @@
     {
       "id": 1,
       "projektleiter": 4,
+      "projektleiter_email": "test",
       "kostenstelle": 4
     },
     {
       "id": 2,
       "projektleiter": 5,
+      "projektleiter_email": "test",
       "kostenstelle": 5
     },
     {
       "id": 3,
       "projektleiter": 6,
+      "projektleiter_email": "test",
       "kostenstelle": 6
-    }
-  ],
-  "personen": [
-    {
-      "id": 1,
-      "name": "Friederich Abril"
-    },
-    {
-      "id": 2,
-      "name": "Olof Schulze"
-    },
-    {
-      "id": 3,
-      "name": "Kristian Landner"
-    },
-    {
-      "id": 4,
-      "name": "Max Mustermann"
-    },
-    {
-      "id": 5,
-      "name": "Monika Musterfrau"
-    },
-    {
-      "id": 6,
-      "name": "Heinz Heinze"
     }
   ],
   "kostenstellen": [
     {
-      "id": 1,
-      "name": "Verwaltung"
+      "value": 1,
+      "label": "Verwaltung"
     },
     {
-      "id": 2,
-      "name": "Entwicklung"
+      "value": 2,
+      "label": "Entwicklung"
     },
     {
-      "id": 3,
-      "name": "Produktion"
+      "value": 3,
+      "label": "Produktion"
     },
     {
-      "id": 4,
-      "name": "Projekt 1"
+      "value": 4,
+      "label": "Projekt 1"
     },
     {
-      "id": 5,
-      "name": "Projekt 2"
+      "value": 5,
+      "label": "Projekt 2"
     },
     {
-      "id": 6,
-      "name": "Projekt 3"
+      "value": 6,
+      "label": "Projekt 3"
     }
   ]
 }
