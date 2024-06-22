@@ -40,10 +40,10 @@
     },
     {
       "id": 4,
-      "projektleiter": 6,
+      "projektleiter": 1,
       "kostenstelle": 7,
       "value": 4,
-      "label": "Projekt 4, gleicher Projektleiter wie Projekt 3"
+      "label": "Projekt 4, Projektleiter ist auch Abteilungsleiter von Verwaltung"
     }
   ],
   "mitarbeiter": [
