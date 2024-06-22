@@ -21,23 +21,29 @@
       "id": 1,
       "projektleiter": 4,
       "kostenstelle": 4,
-      "value": 4,
+      "value": 1,
       "label": "Projekt 1"
     },
     {
       "id": 2,
       "projektleiter": 5,
       "kostenstelle": 5,
-      "value": 5,
+      "value": 2,
       "label": "Projekt 2"
     },
     {
       "id": 3,
       "projektleiter": 6,
-      "projektleiter_email": "test",
       "kostenstelle": 6,
-      "value": 6,
+      "value": 3,
       "label": "Projekt 3"
+    },
+    {
+      "id": 4,
+      "projektleiter": 1,
+      "kostenstelle": 7,
+      "value": 4,
+      "label": "Projekt 4, Projektleiter ist auch Abteilungsleiter von Verwaltung"
     }
   ],
   "mitarbeiter": [
@@ -47,8 +53,7 @@
       "projekt": 1,
       "name": "Mitarbeiter 1",
       "email": "test1@web.de",
-      "iban": "iban1",
-      "kostenstelle": 1
+      "iban": "iban1"
     },
     {
       "id": 2,
@@ -56,8 +61,7 @@
       "projekt": 2,
       "name": "Mitarbeiter 2",
       "email": "test2@web.de",
-      "iban": "iban2",
-      "kostenstelle": 2
+      "iban": "iban2"
     },
     {
       "id": 3,
@@ -65,8 +69,7 @@
       "projekt": 3,
       "name": "Mitarbeiter 3",
       "email": "test3@web.de",
-      "iban": "iban3",
-      "kostenstelle": 3
+      "iban": "iban3"
     },
     {
       "id": 4,
@@ -74,8 +77,7 @@
       "projekt": 1,
       "name": "Mitarbeiter 4",
       "email": "test4@web.de",
-      "iban": "iban4",
-      "kostenstelle": 4
+      "iban": "iban4"
     },
     {
       "id": 5,
@@ -83,8 +85,7 @@
       "projekt": 2,
       "name": "Mitarbeiter 5",
       "email": "test5@web.de",
-      "iban": "iban5",
-      "kostenstelle": 5
+      "iban": "iban5"
     },
     {
       "id": 6,
@@ -92,8 +93,7 @@
       "projekt": 3,
       "name": "Mitarbeiter 6",
       "email": "test6@web.de",
-      "iban": "iban6",
-      "kostenstelle": 6
+      "iban": "iban6"
     }
   ],
   "abrechnungen": [
