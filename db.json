@@ -2,20 +2,17 @@
   "abteilungen": [
     {
       "id": 1,
-      "vorgesetzter": 1,
-      "vorgesetzter_email": "test",
+      "abteilungsleiter": 1,
       "kostenstelle": 1
     },
     {
       "id": 2,
-      "vorgesetzter": 2,
-      "vorgesetzter_email": "test",
+      "abteilungsleiter": 2,
       "kostenstelle": 2
     },
     {
       "id": 3,
-      "vorgesetzter": 3,
-      "vorgesetzter_email": "mariosparacino2@gmail.com",
+      "abteilungsleiter": 3,
       "kostenstelle": 3
     }
   ],
@@ -23,7 +20,6 @@
     {
       "id": 1,
       "projektleiter": 4,
-      "projektleiter_email": "test",
       "kostenstelle": 4,
       "value": 4,
       "label": "Projekt 1"
@@ -31,7 +27,6 @@
     {
       "id": 2,
       "projektleiter": 5,
-      "projektleiter_email": "test",
       "kostenstelle": 5,
       "value": 5,
       "label": "Projekt 2"
@@ -43,6 +38,72 @@
       "kostenstelle": 6,
       "value": 6,
       "label": "Projekt 3"
+    }
+  ],
+  "mitarbeiter": [
+    {
+      "id": 1,
+      "abteilung": 1,
+      "projekt": 1,
+      "name": "Mitarbeiter 1",
+      "email": "test1@web.de",
+      "iban": "iban1",
+      "kostenstelle": 1
+    },
+    {
+      "id": 2,
+      "abteilung": 2,
+      "projekt": 2,
+      "name": "Mitarbeiter 2",
+      "email": "test2@web.de",
+      "iban": "iban2",
+      "kostenstelle": 2
+    },
+    {
+      "id": 3,
+      "abteilung": 3,
+      "projekt": 3,
+      "name": "Mitarbeiter 3",
+      "email": "test3@web.de",
+      "iban": "iban3",
+      "kostenstelle": 3
+    },
+    {
+      "id": 4,
+      "abteilung": 1,
+      "projekt": 1,
+      "name": "Mitarbeiter 4",
+      "email": "test4@web.de",
+      "iban": "iban4",
+      "kostenstelle": 4
+    },
+    {
+      "id": 5,
+      "abteilung": 2,
+      "projekt": 2,
+      "name": "Mitarbeiter 5",
+      "email": "test5@web.de",
+      "iban": "iban5",
+      "kostenstelle": 5
+    },
+    {
+      "id": 6,
+      "abteilung": 3,
+      "projekt": 3,
+      "name": "Mitarbeiter 6",
+      "email": "test6@web.de",
+      "iban": "iban6",
+      "kostenstelle": 6
+    }
+  ],
+  "abrechnungen": [
+    {
+      "id": 1,
+      "mitarbeiter": 1,
+      "projekt": null,
+      "abteilung": 1,
+      "kostenstelle": 1,
+      "betrag": 155.5
     }
   ]
 }
