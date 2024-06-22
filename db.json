@@ -21,14 +21,14 @@
       "id": 1,
       "projektleiter": 4,
       "kostenstelle": 4,
-      "value": 4,
+      "value": 1,
       "label": "Projekt 1"
     },
     {
       "id": 2,
       "projektleiter": 5,
       "kostenstelle": 5,
-      "value": 5,
+      "value": 2,
       "label": "Projekt 2"
     },
     {
@@ -36,7 +36,7 @@
       "projektleiter": 6,
       "projektleiter_email": "test",
       "kostenstelle": 6,
-      "value": 6,
+      "value": 3,
       "label": "Projekt 3"
     }
   ],
