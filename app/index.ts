@@ -13,8 +13,8 @@ console.log("Starting worker...");
 zeebe.createWorker({
   taskType: "task-abrechnungzustellen",
   taskHandler: async (job) => {
-    const response = await axios.get(`https://my-json-server.typicode.com/GAFMONKEY/abgabe5/mitarveiter?id=${job.variables.pers_nummer}`);
-    console.log(response.data);
+    const pers_nummer = job.variables.pers_nummer;
+    console.log("Personalnummer: ", pers_nummer);
     console.log(`[Zeebe Worker] handling job of type ${job.type} with employee id ${job.variables.pers_nummer}`);
     return job.complete({
       serviceTaskOutcome: "We did it!",
