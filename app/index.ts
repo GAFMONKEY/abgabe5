@@ -12,8 +12,10 @@ const zeebe = camunda8.getZeebeGrpcApiClient();
 console.log("Starting worker...");
 zeebe.createWorker({
   taskType: "task-abrechnungzustellen",
-  taskHandler: (job) => {
-    console.log(`[Zeebe Worker] handling job of type ${job.type}`);
+  taskHandler: async (job) => {
+    const response = await axios.get(`https://my-json-server.typicode.com/GAFMONKEY/abgabe5/mitarveiter?id=${job.variables.pers_nummer}`);
+    console.log(response.data);
+    console.log(`[Zeebe Worker] handling job of type ${job.type} with employee id ${job.variables.pers_nummer}`);
     return job.complete({
       serviceTaskOutcome: "We did it!",
     });
