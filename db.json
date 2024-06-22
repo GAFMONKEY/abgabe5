@@ -34,10 +34,16 @@
     {
       "id": 3,
       "projektleiter": 6,
-      "projektleiter_email": "test",
       "kostenstelle": 6,
       "value": 3,
       "label": "Projekt 3"
+    },
+    {
+      "id": 3,
+      "projektleiter": 6,
+      "kostenstelle": 6,
+      "value": 4,
+      "label": "Projekt 4, gleicher Projektleiter wie Projekt 3"
     }
   ],
   "mitarbeiter": [
