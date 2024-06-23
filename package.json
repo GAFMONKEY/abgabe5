@@ -6,12 +6,14 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
+    "@types/uuid": "10.0.0",
     "dotenv": "16.4.5",
     "ts-node": "10.9.2",
     "typescript": "5.4.5"
   },
   "dependencies": {
     "@camunda8/sdk": "8.6.6",
-    "axios": "1.7.2"
+    "axios": "1.7.2",
+    "uuid": "10.0.0"
   }
 }
